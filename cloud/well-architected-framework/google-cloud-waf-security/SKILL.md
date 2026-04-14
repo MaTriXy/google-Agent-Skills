@@ -76,7 +76,7 @@ aligned with the following core principles:
 The following are _examples_ of Google Cloud products and features that are
 relevant to security:
 
-- **Identity and access aanagement**
+- **Identity and access management**
 
   - **Identity and Access Management (IAM)**: Fine-grained access control for
     Google Cloud resources.
