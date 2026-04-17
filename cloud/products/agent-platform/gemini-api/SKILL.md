@@ -1,5 +1,5 @@
 ---
-name: genai-sdk
+name: gemini-api
 description: Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK. Use when the user asks about using Gemini in an enterprise environment or explicitly mentions Vertex AI, Google Cloud, or Agent Platform. Covers SDK usage (Python, JS/TS, Go, Java, C#), capabilities like Live API, tools, multimedia generation, caching, and batch prediction.
 compatibility: Requires active Google Cloud credentials and Agent Platform API enabled.
 ---
@@ -34,7 +34,7 @@ Provide these key capabilities:
 - **C#/.NET**: Install `Google.GenAI` with `dotnet add package Google.GenAI`
 - **Java**:
   - groupId: `com.google.genai`, artifactId: `google-genai`
-  - Latest version can be found here: https://central.sonatype.com/artifact/com.google.genai/google-genai/versions (let's call it `LAST_VERSION`) 
+  - Latest version can be found here: https://central.sonatype.com/artifact/com.google.genai/google-genai/versions (let's call it `LAST_VERSION`)
   - Install in `build.gradle`:
 
     ```

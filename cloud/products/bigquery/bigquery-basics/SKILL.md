@@ -1,5 +1,5 @@
 ---
-name: bigquery
+name: bigquery-basics
 description: >-
   Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery
   ML and Gemini for advanced data analytics and AI-driven insights. Use when

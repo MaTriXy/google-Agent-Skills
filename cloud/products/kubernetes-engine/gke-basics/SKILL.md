@@ -1,5 +1,5 @@
 ---
-name: gke
+name: gke-basics
 license: Apache-2.0
 metadata:
   author: Google Cloud
