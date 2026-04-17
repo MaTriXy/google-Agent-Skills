@@ -1,47 +1,50 @@
-# Agent Skills for Google
+# Agent Skills 
 
-[https://github.com/google/skills](https://github.com/google/skills)
+[![Install via skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh/google/skills)
 
-> **Note:** This repository is currently under active development. **Google
-> Agent Skills** are modular, filesystem-based knowledge packs that provide
-> structured expertise to AI agents, including Gemini CLI, Antigravity, Claude
-> Code, and Cursor. This repository serves as the central hub for official
-> skills across Google products, including **Google Cloud**, **Workspace**,
-> **Firebase**, and more.
+This repository contains [Agent Skills](https://agentskills.io/home) for Google products and technologies, including [Google Cloud](https://cloud.google.com).
+
+> [!NOTE]
+> This repository is under active development.
+
+
+## Installation
+
+```bash
+npx skills add google/skills
+```
+
+From the `npx install` command, you can select the specific skills from this repo to install.  
+
+
+## Available Skills
+
+- [**Gemini API in Agent Platform**](./cloud/products/agent-platform/gemini-api)
+- [**AlloyDB Basics**](./cloud/products/alloydb/alloydb-basics)
+- [**BigQuery Basics**](./cloud/products/bigquery/bigquery-basics)
+- [**Cloud Run Basics**](./cloud/products/cloud-run/cloud-run-basics)
+- [**Cloud SQL Basics**](./cloud/products/cloud-sql/cloud-sql-basics)
+- [**Firebase Basics**](./cloud/products/firebase/firebase-basics)
+- [**Kubernetes Engine (GKE) Basics**](./cloud/products/kubernetes-engine/gke-basics)
+- [**Recipe: Onboarding to Google Cloud**](./cloud/recipes/google-cloud-recipe-onboarding)
+- [**Recipe: Authenticating to Google Cloud**](./cloud/recipes/google-cloud-recipe-auth)
+- [**Well-Architected Framework: Security**](./cloud/well-architected-framework/google-cloud-waf-security)
+- [**Well-Architected Framework: Reliability**](./cloud/well-architected-framework/google-cloud-waf-reliability)
+- [**Well-Architected Framework: Cost Optimization**](./cloud/well-architected-framework/google-cloud-waf-cost-optimization)
+
+## Support
+
+If you need help or encounter issues with these skills, search for existing issues or open a new one in our [GitHub Issue Tracker](https://github.com/google/skills/issues).
+
+## Contributing
+
+We welcome contributions to improve our skills. You can help by:
+
+*   [Reporting bugs or inaccuracies](https://github.com/google/skills/issues) in the skill Markdown files.
+*   Suggesting new skills to add to this repository (for example, Google technologies or recipes) by filing a feature request.
 
 ## License
 
 You are free to copy, modify, and distribute these skills under the terms of the
 Apache 2.0 license. See the `LICENSE` file for details.
 
-## Prerequisites
-
-Before using these skills, you will need:
-
-*   An AI assistant that supports the Agent Skills specification.
-*   Git for cloning the repository or a supported CLI (ex: `skills`) for
-    downloading skills.
-
-## Quickstart
-
-1.  **Download the skills:** Clone this repository or use a tool like `npx
-    skills` to download them locally.
-2.  **Place in the skills directory:** Move the desired skill folders into your
-    local configuration directory (e.g., `~/.gemini/antigravity/skills/`).
-3.  **Trigger the skill:** Simply ask your AI agent a question related to the
-    skill's topic. The agent will automatically detect and read the relevant
-    `SKILL.md` file to assist you.
-
-## Support
-
-If you need help or encounter issues with these skills:
-
-*   Search for existing issues or open a new one in our GitHub Issue Tracker.
-
-## How to Help
-
-We welcome contributions to improve our skills. You can help by:
-
-*   Reporting bugs or inaccuracies in the skill Markdown files.
-*   Suggesting new technical topics or best practices to include in the
-    repository.

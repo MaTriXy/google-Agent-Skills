@@ -14,7 +14,7 @@ description: >-
   relational database workloads.
 ---
 
-# Cloud SQL Guide
+# Cloud SQL Basics
 
 Cloud SQL is a fully managed relational database service for MySQL, PostgreSQL,
 and SQL Server. It automates time-consuming tasks like patches, updates,

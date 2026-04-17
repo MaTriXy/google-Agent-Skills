@@ -5,7 +5,7 @@ description: >-
   integrates with AlloyDB model context protocol (MCP) tools for automated database operations.
 ---
 
-# AlloyDB Guide
+# AlloyDB Basics
 
 AlloyDB for PostgreSQL is a managed, PostgreSQL-compatible database service
 designed for enterprise-grade performance and availability. It utilizes a

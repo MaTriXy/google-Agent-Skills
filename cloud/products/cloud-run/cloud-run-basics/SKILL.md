@@ -6,7 +6,7 @@ description: >-
   or handle always-on pull-based background processing (worker pools).
 ---
 
-# Cloud Run Guide
+# Cloud Run Basics
 
 Cloud Run is a fully managed application platform for running your code,
 function, or container on top of Google's highly scalable infrastructure. It

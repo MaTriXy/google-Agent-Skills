@@ -9,7 +9,7 @@ description: >-
   applications on BigQuery.
 ---
 
-# BigQuery Guide
+# BigQuery Basics
 
 BigQuery is a serverless, AI-ready data platform that enables high-speed
 analysis of large datasets using SQL and Python. Its disaggregated architecture

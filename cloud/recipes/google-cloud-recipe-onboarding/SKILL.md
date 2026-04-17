@@ -58,8 +58,8 @@ Google Cloud resources are organized into
 2.  Click **New Project**.
 3.  Enter a **Project Name** (e.g., `my-first-gcp-project`).
 4.  Note the generated **Project ID**; you will use this for CLI and API
-    interactions. 
-5. Click **Create**.
+    interactions.
+5.  Click **Create**.
 
 ### 3. Set Up Billing
 
@@ -86,7 +86,8 @@ local machine.
 
 Most services require their specific
 [API](https://docs.cloud.google.com/apis/docs/overview) to be enabled before
-use. For example, to use [Cloud Run](https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run), run:
+use. For example, to use [Cloud
+Run](https://docs.cloud.google.com/run/docs/overview/what-is-cloud-run), run:
 `gcloud services enable run.googleapis.com`
 
 Note that [some Google Cloud APIs, including Cloud Logging, are enabled by
@@ -99,8 +100,8 @@ Choose a simple entry point based on your needs: -
 Deploy a containerized "Hello World" app. -
 **[Compute Engine](https://docs.cloud.google.com/compute/docs):** Create a small
 Linux VM (e.g., `e2-micro` which is part of the Always Free tier in certain
-regions). - **[Cloud Storage](https://docs.cloud.google.com/storage/docs):** Create a
-bucket to store files.
+regions). - **[Cloud Storage](https://docs.cloud.google.com/storage/docs):**
+Create a bucket to store files.
 
 Example (Cloud Run): `bash gcloud run deploy hello-world \
 --image=gcr.io/cloudrun/hello \ --platform=managed \ --region=us-central1 \

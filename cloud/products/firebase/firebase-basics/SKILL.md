@@ -3,7 +3,9 @@ name: firebase-basics
 description: Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.
 ---
 
-## **CRITICAL** Mandatory prerequisites
+# Firebase Basics
+
+### **CRITICAL** Mandatory prerequisites
 
 Before attempting to fulfill any user request regarding Firebase, you **MUST**
 follow these steps in order. Do not proceed to implementation until these are
