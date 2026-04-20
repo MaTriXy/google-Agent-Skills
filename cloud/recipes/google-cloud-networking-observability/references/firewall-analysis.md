@@ -42,10 +42,10 @@ text jsonPayload.rule_details.action="DENY"
 **SQL Pattern**:
 
 ```sql
-SELECT JSON_VALUE(jsonPayload.rule_details.reference) AS
+SELECT JSON_VALUE(json_payload.rule_details.reference) AS
 rule_name, COUNT(*) AS block_count FROM `{project_id}.{dataset_id}._AllLogs`
 WHERE log_name LIKE '%firewall%' AND
-JSON_VALUE(jsonPayload.rule_details.action) = 'DENY' GROUP BY 1 ORDER BY
+JSON_VALUE(json_payload.rule_details.action) = 'DENY' GROUP BY 1 ORDER BY
 block_count DESC LIMIT 10
 ```
 

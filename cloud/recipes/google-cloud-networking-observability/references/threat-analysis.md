@@ -37,10 +37,11 @@ jsonPayload.action="DENY"
 
 **Tool**: `query_sql`
 
-**SQL Pattern**: Note: BigQuery JSON fields are case-sensitive and typically
-follow the proto field names (snake_case), while Cloud Logging filters use
-camelCase for JSON payloads. Always check the specific BigQuery table schema if
-queries fail.
+**SQL Pattern**: **Note**: In BigQuery, the top-level column name is
+`json_payload` (snake_case). However, fields extracted from inside the JSON
+payload are case-sensitive and retain the camelCase format of the original log
+(for example, `threatDetails`, `clientIp`). Do not use snake_case for nested
+fields.
 
 ```sql
 SELECT
